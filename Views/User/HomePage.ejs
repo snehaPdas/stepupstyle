@@ -1,0 +1,203 @@
+<%-include("../partials/userheader") %>
+
+
+<main>
+    <!-- hero slider area start -->
+    <section class="slider-area">
+        <div class="hero-slider-active slick-arrow-style slick-arrow-style_hero slick-dot-style">
+            <!-- single slider item start -->
+            <div class="hero-single-slide hero-overlay">
+                <div class="hero-slider-item bg-img" data-bg="user-assets/img/slider/photo-1543163521-1bf539c55dd2.avif">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hero-slider-content slide-1">
+                                    <h2 class="slide-title">Women's Foot Wear <span>Collection</span></h2>
+                                    <h4 class="slide-desc">Designer Foot Wears</h4>
+                                    <a href="shop.html" class="btn btn-hero">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- single slider item start -->
+
+            <!-- single slider item start -->
+            <div class="hero-single-slide hero-overlay">
+                <div class="hero-slider-item bg-img" data-bg="user-assets/img/slider/photo-1604136172276-0f0a615e7fae.avif">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="hero-slider-content slide-2 float-md-end float-none">
+                                    <h2 class="slide-title">Foot Wear<span>Collection</span></h2>
+                                    <h4 class="slide-desc">Step Up To Style.</h4>
+                                    <a href="shop.html" class="btn btn-hero">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+           </section>
+
+            <section class="product-banner-statistics">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="product-banner-carousel slick-row-10">
+                                <!-- banner single slide start -->
+                                <div class="banner-slide-item">
+                                    <figure class="banner-statistics">
+                                        <a href="#">
+                                            <img src="user-assets/img/banner/free-photo-of-close-up-of-colorful-heels-standing-on-yellow-background.jpeg" alt="product banner">
+                                        </a>
+                                        <div class="banner-content banner-content_style2">
+                                            <h5 class="banner-text3"><a href="#">HEELS</a></h5>
+                                        </div>
+                                    </figure>
+                                </div>
+                                <!-- banner single slide start -->
+                                <!-- banner single slide start -->
+                                <div class="banner-slide-item">
+                                    <figure class="banner-statistics">
+                                        <a href="#">
+                                            <img src="user-assets/img/banner/pexels-photo-3782788.webp" alt="product banner">
+                                        </a>
+                                        <div class="banner-content banner-content_style2">
+                                            <h5 class="banner-text3"><a href="#">SLIP HEELS</a></h5>
+                                        </div>
+                                    </figure>
+                                </div>
+                                <!-- banner single slide start -->
+                                <!-- banner single slide start -->
+                                <div class="banner-slide-item">
+                                    <figure class="banner-statistics">
+                                        <a href="#">
+                                            <img src="user-assets/img/banner/pexels-photo-3782789.webp" alt="product banner">
+                                        </a>
+                                        <div class="banner-content banner-content_style2">
+                                            <h5 class="banner-text3"><a href="#">FOOT WEAR</a></h5>
+                                        </div>
+                                    </figure>
+                                </div>
+                                <!-- banner single slide start -->
+                                <!-- banner single slide start -->
+                                <div class="banner-slide-item">
+                                    <figure class="banner-statistics">
+                                        <a href="#">
+                                            <img src="user-assets/img/banner/pexels-photo-12109414.webp" alt="product banner">
+                                        </a>
+                                        <div class="banner-content banner-content_style2">
+                                            <h5 class="banner-text3"><a href="#">FLAT HEELS</a></h5>
+                                        </div>
+                                    </figure>
+                                </div>
+                                <!-- banner single slide start -->
+                                <!-- banner single slide start -->
+                                <div class="banner-slide-item">
+                                    <figure class="banner-statistics">
+                                        <a href="#">
+                                            <img src="user-assets/img/banner/pexels-photo-15640930.webp" alt="product banner">
+                                        </a>
+                                        <div class="banner-content banner-content_style2">
+                                            <h5 class="banner-text3"><a href="#">PEARL HEEL</a></h5>
+                                        </div>
+                                    </figure>
+                                </div>
+                                <!-- banner single slide start -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ....................................................................................... -->
+             <section class="product-tabs section-padding position-relative wow fadeIn animated">
+                <div class="bg-square"></div>
+                <div class="container">
+                    <div class="tab-header">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                       
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="nav-tab-three" data-bs-toggle="tab" data-bs-target="#tab-three"
+                                    type="button" role="tab" aria-controls="tab-three" aria-selected="false">New
+                                    added</button>
+                            </li>
+                        </ul>
+                        <a href="#" class="view-more d-none d-md-flex">View More<i
+                                class="fi-rs-angle-double-small-right"></i></a>
+                    </div>
+            
+                    <div class="tab-content wow fadeIn animated" id="myTabContent">
+                        <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
+                            
+                            <div class="row product-grid-4">
+                               
+
+                                <%for(i=0;i<product.length;i++) { %>
+
+                            
+            
+                    
+            
+                                    <div class="col-lg-3 col-md-4 col-12 col-sm-6">
+                                        <div class="product-cart-wrap mb-30">
+                                            <div class="product-img-action-wrap">
+                                                <div class="product-img product-img-zoom">
+                                                     <a href="/productdetails?id=<%=product[i]._id%>">
+                                                    <img class="default-img" src="/uploads/product-images/<%=product[i].productimage[0]%>" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="product-action-1"> 
+                                                   
+                                                    <a aria-label="Add To Wishlist" class="action-btn hover-up"
+                                                        href="products-wishlist.html"><i class="fi-rs-heart"></i></a>
+                                                    
+                                                </div>
+                                                <div class="product-badges product-badges-position product-badges-mrg">
+                                                    <span class="hot">New</span>
+                                                </div>
+                                            </div>
+                                             <div class="product-content-wrap">
+                                                
+                                                <div class="product-brand">
+                                                    <a href="products-grid-right.html"></a>
+                                                </div>
+                                                <h2><a href="products-product-right.html"></a></h2> 
+                                                 <div class="rating-result" title="90%">
+                                                    <h2><a href="products-product-right.html"></a></h2>
+                                                    <span>
+                                                        <span>90%</span>
+                                                    </span> 
+                                                </div>
+                                                <div class="product-price" style="display: flex; justify-content: center; align-items: center;">
+                                                    <span></span>
+                                                    
+                                                        <span class="old-price"><s> </s></span>
+                                                    
+                                                </div>
+                                                <div class="product-action-1 show">
+                                                    <a aria-label="Add To Cart" class="action-btn hover-up"
+                                                        href="/cart"><i
+                                                        class="fi-rs-productsping-bag-add"></i></a>
+                                                </div> 
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    
+            <% } %>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            
+            </div>
+            </section> 
+            
+
+            <%-include("../partials/userfooter")%>
